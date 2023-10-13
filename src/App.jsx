@@ -3,7 +3,7 @@ import iconSuvs from './assets/icon-suvs.svg'
 import iconLuxury from './assets/icon-luxury.svg'
 function App() {
   return (
-    <main className="flex text-[1.5rem] flex-col lg:flex-row m-8">
+    <main className="flex text-[1.5rem] flex-col lg:flex-row mt-[5rem]">
       <article className="bg-bright-orange p-[4.8rem] max-w-[30.65rem] rounded-t-xl  lg:rounded-s-xl lg:rounded-e-none">
         <img className="mb-11" src={iconSedan} alt="Icono de Sedan" />
         <h1 className="mb-[2.2rem] uppercase text-very-light-gray text-[4rem]">Sedans</h1>
